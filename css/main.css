@@ -121,6 +121,11 @@ nav a:visited,
     text-decoration: none;
 }
 
+nav a:hover,
+#footerelems a:hover {
+    background: lightgrey;
+}
+
 /* ==============
     MOBILE: Main
    ============== */
@@ -230,8 +235,8 @@ nav a:visited,
     }
 
     nav {
-        float: right;
-        width: 50%;
+        /*float: right;
+        width: 50%;*/
     }
 
 /* ============
@@ -409,7 +414,7 @@ article {
     margin-left: 20px;
 }
 
-nav .black {
+nav a.black {
     background-color: #353535;
     color: white !important;
 }
